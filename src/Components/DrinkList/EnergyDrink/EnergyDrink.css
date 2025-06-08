@@ -1,0 +1,118 @@
+.energy-page{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.btn1{
+    padding: 6px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    background-color: #00000015;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn1:hover{
+    color: red;
+}
+.drink-menu{
+     width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.drink-item {
+     width: 300px;   
+  border-radius: 15px;
+  box-shadow: 0 0 10px #00000015;
+  transition: 0.3s;
+  animation: fadeIn 1s;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.drink-item-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.drink-item-info {
+    padding: 20px;
+}
+
+.drink-item-price-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.drink-item-price-rating p {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.drink-item-price-rating img {
+    width: 70px;
+}
+
+.drink-item-desc {
+    font-size: 1.2rem;
+    color: #676767;
+}
+
+.drink-item-price {
+    color: #21063e;
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.drink-item-name {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.drink-item-image-container{
+    position: relative;
+}
+.drink-item-image-container .add{
+    position: absolute;
+    width: 35px;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+.drink-item-counter{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 6px;
+    border-radius: 50px;
+}
+.drink-item-counter img{
+    width: 30px;
+    margin-top: 2px;
+}
+.drink-item-counter p{
+    margin-bottom: -6px;
+}
+@media (max-width:800px){
+    .drink-item{
+        margin-left: 120px;
+    }
+    .energy-page{
+        font-size: 12px;
+        margin-left: 120px
+    }
+}
