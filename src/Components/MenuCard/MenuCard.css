@@ -58,7 +58,7 @@
 .caption{
     margin-top: 5px;
 }
-@media (max-width: 1272px) {
+@media (max-width: 1285px) {
   .box img {
     width: 320px; /* Adjust as needed */
     margin-left: auto;
