@@ -18,27 +18,27 @@ const MenuCard = () => {
       
         <div className="menu-container">
             <div className="box">
-            <img src='/coffee_pic.jpg' width='400'height='250' alt="Coffee Box" />
+            <img onClick={() => navigate('/coffee')} src='/coffee_pic.jpg' width='400'height='250' alt="Coffee Box" />
             <button onClick={() => navigate('/coffee')}><div className="caption">Coffee</div></button>
             </div>
         <div className="box">
-            <img src="/tea_pic.jpg" width='380'height='250' alt="Tea Box" />
+            <img onClick={() => navigate('/tea')} src="/tea_pic.jpg" width='380'height='250' alt="Tea Box" />
             <button onClick={() => navigate('/tea')}><div className="caption">Tea </div></button>
         </div>
         <div className="box">
-            <img src="/juices_pic.jpg" width='380'height='250' alt="Tea Box" />
+            <img onClick={() => navigate('/juice')} src="/juices_pic.jpg" width='380'height='250' alt="Tea Box" />
             <button onClick={() => navigate('/juice')}><div className="caption">Juices </div></button>
         </div>
         <div className="box">
-            <img src="/shakes_pic.jpg" width='380'height='250' alt="Tea Box" />
+            <img onClick={() => navigate('/shake')} src="/shakes_pic.jpg" width='380'height='250' alt="Tea Box" />
             <button onClick={() => navigate('/shake')}><div className="caption">Shakes </div></button>
         </div>
         <div className="box">
-            <img src="/smoothies_pic.jpg" width='380'height='250' alt="Tea Box" />
+            <img onClick={() => navigate('/smoothies')} src="/smoothies_pic.jpg" width='380'height='250' alt="Tea Box" />
             <button onClick={() => navigate('/smoothies')}><div className="caption">Smoothies </div></button>
         </div>
         <div className="box">
-            <img src="/energydrink_pic.jpg" width='380'height='250' alt="Tea Box" />
+            <img onClick={() => navigate('/energydrink')} src="/energydrink_pic.jpg" width='380'height='250' alt="Tea Box" />
             <button onClick={() => navigate('/energydrink')}><div className="caption">EnergyDrink </div></button>
         </div>
       
